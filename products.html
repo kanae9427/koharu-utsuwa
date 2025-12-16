@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<!-- ウェブページの文字エンコーディングを指定するために使用されます。 -->
+		<meta charset="UTF-8" />
+		<!-- ウェブページのビューポート（表示領域）の設定を指定します。 -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- ウェブページのタイトルに使用されます。 -->
+		<title>うつわ屋こはる</title>
+		<!-- ウェブページの簡潔な説明や概要を提供するために使用されます。 -->
+		<meta
+			name="description"
+			content="うつわ屋こはるは陶器専門のECサイトです。陶器の製造・販売を行っています。"
+		/>
+		<!-- モバイルブラウザが電話番号の検出やリンク化を行わないように設定しています。 -->
+		<meta name="format-detection" content="telephone=no" />
+		<!-- ファビコンを設定しています。 -->
+		<link rel="shortcut icon" href="image/favicon.ico" />
+		<!-- reset.cssは、destyleを使用しています。 -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css"
+		/>
+		<!-- スタイルシート（css）を呼び出しています -->
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body class="body products-page">
+  <!-- ここから記述します。 -->
+   <!-- header -->
+		<header class="header u-wrapper">
+			<h1>
+				<a href="index.html">
+					<img class="header__logo" src="image/logo-white.png" alt="うつわ屋こはる">
+				</a>
+			</h1>
+			<div class="hamburger-line">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<nav id="hamburger-navigation" class="hamburger-navigation">
+				<ul class="sections">
+					<li class="hamburger-menu__logo">
+						<a href="index.html">
+							<img src="image/logo.png" alt="うつわ屋こはる">
+						</a>
+					</li>
+					<li class="hamburger-menu-section">
+						<a class="hamburger-menu__text" href="index.html">ホーム</a>
+					</li>
+					<li class="hamburger-menu-section">
+						<a class="hamburger-menu__text" href="products.html">商品一覧</a>
+					</li>
+					<li class="hamburger-menu-section">
+						<a class="hamburger-menu__text" href="company.html">会社概要</a>
+					</li>
+					<li class="hamburger-menu-section">
+						<a class="hamburger-menu__text" href="about.html">私たちについて</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="mask"></div>
+		</header>
+		<!-- /header -->
+
+		<main class="u-wrapper">
+			<section class="products">
+				<h2 class="common__heading">商品一覧</h2>
+				<div id="products__list"  class="products__list"></div>
+			</section>
+			<section class="popular">
+				<h2 class="common__heading">人気の商品</h2>
+				<div id="popular__list" class="popular__list"></div>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<div class="footer-inner u-wrapper">
+				<nav class="footer-nav">
+					<div>
+						<a href="#">
+							<img class="footer__logo" src="image/logo.png" alt="うつわ屋こはる">
+						</a>
+					</div>
+					<ul class="footer-sections">
+						<li class="footer-section">
+							<a class="footer__text" href="index.html">ホーム</a>
+						</li>
+						<li class="footer-section">
+							<a class="footer__text" href="products.html">商品一覧</a>
+						</li>
+						<li class="footer-section">
+							<a class="footer__text" href="company.html">会社概要</a>
+						</li>
+						<li class="footer-section">
+							<a class="footer__text" href="about.html">私たちについて</a>
+						</li>
+					</ul>
+				</nav>
+				<p class="footer__copy">&copy;うつわ屋こはる All Right Reserved</p>
+			</div>
+		</footer>
+
+   <!-- JSを呼び出しています -->
+		<script src="js/main.js"></script>
+	</body>
+</html>

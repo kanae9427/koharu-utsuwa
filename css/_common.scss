@@ -1,0 +1,236 @@
+/*-------------------------------------------
+共通クラス
+-------------------------------------------*/
+@use 'setting' as s;
+
+body {
+    font-family: "Hiragino Mincho Pro", "Hiragino Mincho ProN", "Yu Mincho", YuMincho, HGS明朝E, メイリオ, Meiryo, serif;
+    letter-spacing: .1em;
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+}
+
+a:hover {
+	opacity: 0.85;
+	transition: 0.3s;
+}
+
+.body {
+	background: s.$colorBlack;
+}
+
+.main {
+	position: relative;
+}
+
+/*-------------------------------------------
+共通パーツの指定
+-------------------------------------------*/
+.u-wrapper {
+	width: 100%;
+	max-width: 1360px;
+	margin: 0 auto;
+	padding: 0 40px;
+
+	@include s.mq('tab') {
+		padding: 0px 15px;
+	}
+}
+/* ここから記述します。 */
+.header{
+	width: 100%;
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__logo{
+	width: 160px;
+	height: auto;
+}
+
+.hamburger-line {
+	width: 30px;
+	height: 20px;
+	position: relative;
+	z-index: 20;
+	cursor: pointer;
+	transition: all 0.5s;
+}
+
+.hamburger-line span {
+	display: block;
+	position: absolute;
+	width: 30px;
+	height: 2px;
+	background: #fff;
+	border-radius: 4px;
+	transition: all 0.5s;
+}
+
+.hamburger-line span:nth-child(1) {
+	top: 2px;
+}
+
+.hamburger-line span:nth-child(2) {
+	top: 12px;
+}
+
+.hamburger-line span:nth-child(3) {
+	top: 22px;
+}
+
+.hamburger-line.active span:nth-child(1) {
+	top: 12px;
+	transform: rotate(-45deg);
+	background: #fff;
+}
+
+.hamburger-line.active span:nth-child(2){
+	visibility: hidden;
+	opacity: 0;
+}
+
+.hamburger-line.active span:nth-child(3) {
+	top: 12px;
+	transform: rotate(45deg);
+	background: #fff;
+}
+
+.hamburger-navigation {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 300px;
+	height: 100vh;
+	padding: 60px 25px ;
+	background: s.$colorWhite;
+	box-shadow: 2px 0 8px rgba(0,0,0,0.1);
+	transform: translateX(-100%);
+	transition: transform 0.4s ease;
+	z-index: 1000;
+}
+
+.hamburger-navigation.active {
+    transform: translateX(0);
+}
+
+.hamburger-menu__logo{
+	width: 160px;
+	height: auto;
+	margin-bottom: 24px;
+}
+
+.hamburger-menu-section {
+	margin-bottom: 20px;
+}
+
+.hamburger-menu__text {
+	color: s.$colorBlack;
+}
+
+.mask {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background: rgba(0, 0, 0, 0.8);
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 0.4s ease;
+	z-index: 10;
+}
+
+.mask.active {
+	opacity: 1;
+	visibility: visible;
+}
+
+.footer{
+    height: 160px;
+    background-color: s.$colorWhite;
+    align-content: center;
+
+	@include s.mq('tab'){
+		height: auto;
+		padding: 48px 0;
+	}
+}
+
+.footer-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+	@include s.mq('tab'){
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+.footer-nav{
+	@include s.mq('tab'){
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+.common__heading{
+	position: relative;
+	left: 64px;
+	font-size: 32px;
+	color: s.$colorWhite;
+	margin: 32px auto;
+
+	@include s.mq('tab'){
+		font-size: 24px;
+		left: 48px;
+	}
+}
+
+.common__heading::before {
+    content: "";
+    width: 40px;
+    height: 1px;
+    background-color: s.$colorWhite;
+	position: absolute;
+	top: 50%;
+	left: -64px;
+
+	@include s.mq('tab'){
+		width: 32px;
+		left: -48px;
+	}
+}
+
+.footer__logo{
+    width: 160px;
+    height: auto;
+    margin-bottom: 24px;
+}
+
+.footer-sections{
+    display: flex;
+    color: s.$colorBlack;
+    gap: 28px;
+
+	@include s.mq('tab'){
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 24px;
+		margin-bottom: 40px;
+	}
+}
+
+.footer__copy{
+    font-size: 14px;
+    color: s.$colorBlack;
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<!-- ウェブページの文字エンコーディングを指定するために使用されます。 -->
+		<meta charset="UTF-8" />
+		<!-- ウェブページのビューポート（表示領域）の設定を指定します。 -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- ウェブページのタイトルに使用されます。 -->
+		<title>うつわ屋こはる</title>
+		<!-- ウェブページの簡潔な説明や概要を提供するために使用されます。 -->
+		<meta
+			name="description"
+			content="うつわ屋こはるは陶器専門のECサイトです。陶器の製造・販売を行っています。"
+		/>
+		<!-- モバイルブラウザが電話番号の検出やリンク化を行わないように設定しています。 -->
+		<meta name="format-detection" content="telephone=no" />
+		<!-- ファビコンを設定しています。 -->
+		<link rel="shortcut icon" href="image/favicon.ico" />
+		<!-- reset.cssは、destyleを使用しています。 -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css"
+		/>
+		<!-- スタイルシート（css）を呼び出しています -->
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body class="body">
+  <!-- ここから記述します。 -->
+  <!-- header -->
+		<header class="header u-wrapper">
+			<h1>
+				<a href="index.html">
+					<img class="header__logo" src="image/logo-white.png" alt="うつわ屋こはる">
+				</a>
+			</h1>
+			<div class="hamburger-line">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<nav id="hamburger-navigation" class="hamburger-navigation">
+				<ul class="sections">
+					<li class="hamburger-menu__logo">
+						<a href="index.html">
+							<img src="image/logo.png" alt="うつわ屋こはる">
+						</a>
+					</li>
+					<li class="hamburger-menu-section">
+						<a class="hamburger-menu__text" href="index.html">ホーム</a>
+					</li>
+					<li class="hamburger-menu-section">
+						<a class="hamburger-menu__text" href="products.html">商品一覧</a>
+					</li>
+					<li class="hamburger-menu-section">
+						<a class="hamburger-menu__text" href="company.html">会社概要</a>
+					</li>
+					<li class="hamburger-menu-section">
+						<a class="hamburger-menu__text" href="about.html">私たちについて</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="mask"></div>
+		</header>
+		<!-- /header -->
+
+		<main class="u-wrapper">
+			<section class="company">
+				<h2 class="common__heading">会社概要</h2>
+				<div class="company-layout">
+					<div class="company-layout__item company-layout__map">
+						<iframe class="company-map__iframe"
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1440.6121164551396!2d142.28184873899505!3d43.76820397971702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0cef3e69c31c5b%3A0x58b6acc8afe8da5a!2z44CSMDcwLTgwNzIg5YyX5rW36YGT5pet5bed5biC5Y-w5aC077yS5p2h77yS5LiB55uu!5e0!3m2!1sja!2sjp!4v1759108527568!5m2!1sja!2sjp"
+							style="border:0;" allowfullscreen="" loading="lazy"
+							referrerpolicy="no-referrer-when-downgrade"></iframe>
+					</div>
+					<div class="company-layout__item company-layout__info">
+						<dl>
+							<div class="company-info__item">
+								<dt class="company-info__label">社名</dt>
+								<dd class="company-info__value">うつわ屋こはる</dd>
+							</div>
+							<div class="company-info__item">
+								<dt class="company-info__label">住所</dt>
+								<dd class="company-info__value">〒070-8072 北海道旭川市台場2条2丁目</dd>
+							</div>
+							<div class="company-info__item">
+								<dt class="company-info__label">設立</dt>
+								<dd class="company-info__value">2020年7月</dd>
+							</div>
+							<div class="company-info__item">
+								<dt class="company-info__label">資本金</dt>
+								<dd class="company-info__value">1000万円</dd>
+							</div>
+							<div class="company-info__item">
+								<dt class="company-info__label">従業員数</dt>
+								<dd class="company-info__value">20名</dd>
+							</div>
+							<div class="company-info__item">
+								<dt class="company-info__label">事業内容</dt>
+								<dd class="company-info__value">陶器の製造・販売</dd>
+							</div>
+						</dl>
+					</div>
+				</div>
+			</section>
+		</main>
+		<!-- footer -->
+		<footer class="footer">
+			<div class="footer-inner u-wrapper">
+				<nav class="footer-nav">
+					<div>
+						<a href="#">
+							<img class="footer__logo" src="image/logo.png" alt="うつわ屋こはる">
+						</a>
+					</div>
+					<ul class="footer-sections">
+						<li class="footer-section">
+							<a class="footer__text" href="index.html">ホーム</a>
+						</li>
+						<li class="footer-section">
+							<a class="footer__text" href="products.html">商品一覧</a>
+						</li>
+						<li class="footer-section">
+							<a class="footer__text" href="company.html">会社概要</a>
+						</li>
+						<li class="footer-section">
+							<a class="footer__text" href="about.html">私たちについて</a>
+						</li>
+					</ul>
+				</nav>
+				<p class="footer__copy">&copy;うつわ屋こはる All Right Reserved</p>
+			</div>
+		</footer>
+		<!-- /footer -->
+		<!-- JSを呼び出しています -->
+		<script src="js/main.js"></script>
+	</body>
+</html>

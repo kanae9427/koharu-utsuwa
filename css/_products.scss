@@ -1,0 +1,23 @@
+/*-------------------------------------------
+productsページ / products.html
+-------------------------------------------*/
+@use 'setting' as s;
+/* ここから記述します。 */
+.popular__list{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 35px;
+    margin-bottom: 120px;
+
+    @include s.mq('tab') {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 28px 8px;
+        margin-bottom: 80px;
+    }
+}
+
+.products-page .products__list{
+    margin-bottom: 120px;
+}

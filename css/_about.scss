@@ -1,0 +1,58 @@
+/*-------------------------------------------
+aboutページ / about.html
+-------------------------------------------*/
+@use 'setting' as s;
+/* ここから記述します。 */
+.about .common__heading{
+    left: 60px;
+
+    @include s.mq('tab') {
+        left: 48px;
+    }
+}
+
+.about .common__heading::before{
+    left: -60px;
+
+    @include s.mq('tab') {
+        left: -48px;
+    }
+}
+
+.about-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 48px;
+    margin-bottom: 120px;
+
+    @include s.mq('tab') {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 80px;
+    }
+}
+
+.about__img-wrapper,
+.about__text-wrapper{
+    flex: 1;
+}
+
+.about__title{
+    font-size: 28px;
+    color: s.$colorWhite;
+    margin-bottom: 24px;
+
+    @include s.mq('tab') {
+        font-size: 22px;
+    }
+}
+
+.about__text{
+    color: s.$colorWhite;
+    line-height: 1.9;
+}
+
+.about__text:first-of-type{
+    margin-bottom: 32px;
+}
