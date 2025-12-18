@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
             id:1,
             name: "益子焼オリジナルセット",
             price:"¥9,800",
-            image:"image/item1.jpg",
+            image:"../image/item1.jpg",
             link:"item1.html",
             isPopular: true
         },
