@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
             id:1,
             name: "益子焼オリジナルセット",
             price:"¥9,800",
-            image:"koharu-utsuwa/image/item1.jpg",
+            image:"js/image/item1.jpg",
             link:"koharu-utsuwa/item1.html",
             isPopular: true
         },
@@ -31,120 +31,120 @@ document.addEventListener("DOMContentLoaded", function () {
             id:2,
             name: "湯呑み茶碗",
             price:"¥4,400",
-            image:"../image/item2.jpg",
-            link:"../item2.html",
+            image:"js/image/item2.jpg",
+            link:"koharu-utsuwa/item2.html",
             isPopular: false
         },
         {
             id:3,
             name: "抹茶茶碗",
             price:"¥3,200",
-            image:"../image/item3.jpg",
-            link:"../item3.html",
+            image:"js/image/item3.jpg",
+            link:"koharu-utsuwa/item3.html",
             isPopular: false
         },
         {
             id:4,
             name: "レトロのボウル",
             price:"¥2,500",
-            image:"../image/item4.jpg",
-            link:"../item4.html",
+            image:"js/image/item4.jpg",
+            link:"koharu-utsuwa/item4.html",
             isPopular: false
         },
         {
             id:5,
             name: "益子焼マグカップ",
             price:"¥3,500",
-            image:"../image/item5.jpg",
-            link:"../item5.html",
+            image:"js/image/item5.jpg",
+            link:"koharu-utsuwa/item5.html",
             isPopular: true
         },
         {
             id:6,
             name: "オリジナルカップ",
             price:"¥5,200",
-            image:"../image/item6.jpg",
-            link:"../item6.html",
+            image:"js/image/item6.jpg",
+            link:"koharu-utsuwa/item6.html",
             isPopular: true
         },
         {
             id:7,
             name: "ビンテージカップ",
             price:"¥3,500",
-            image:"../image/item7.jpg",
-            link:"../item7.html",
+            image:"js/image/item7.jpg",
+            link:"koharu-utsuwa/item7.html",
             isPopular: false
         },
         {
             id:8,
             name: "小春ボウル",
             price:"¥4,800",
-            image:"../image/item8.jpg",
-            link:"../item8.html",
+            image:"js/image/item8.jpg",
+            link:"koharu-utsuwa/item8.html",
             isPopular: false
         },
         {
             id:9,
             name: "白いボウル",
             price:"¥2,500",
-            image:"../image/item9.jpg",
-            link:"../item9.html",
+            image:"js/image/item9.jpg",
+            link:"koharu-utsuwa/item9.html",
             isPopular: false
         },
         {
             id:10,
             name: "ストライプコップ",
             price:"¥3,000",
-            image:"../image/item10.jpg",
-            link:"../item10.html",
+            image:"js/image/item10.jpg",
+            link:"koharu-utsuwa/item10.html",
             isPopular: false
         },
         {
             id:11,
             name: "青色のマグカップ",
             price:"¥1,800",
-            image:"../image/item11.jpg",
-            link:"../item11.html",
+            image:"js/image/item11.jpg",
+            link:"koharu-utsuwa/item11.html",
             isPopular: false
         },
         {
             id:12,
             name: "ティーカップ",
             price:"¥2,200",
-            image:"../image/item12.jpg",
-            link:"../item12.html",
+            image:"js/image/item12.jpg",
+            link:"koharu-utsuwa/item12.html",
             isPopular: false
         },
         {
             id:13,
             name: "和食器",
             price:"¥3,500",
-            image:"../image/item13.jpg",
-            link:"../item13.html",
+            image:"js/image/item13.jpg",
+            link:"koharu-utsuwa/item13.html",
             isPopular: false
         },
         {
             id:14,
             name: "2個セット茶碗",
             price:"¥4,200",
-            image:"../image/item14.jpg",
-            link:"../item14.html",
+            image:"js/image/item14.jpg",
+            link:"koharu-utsuwa/item14.html",
             isPopular: false
         },
         {
             id:15,
             name: "うすみどりのボウル",
             price:"¥1,900",
-            image:"../image/item15.jpg",
-            link:"../item15.html",
+            image:"js/image/item15.jpg",
+            link:"koharu-utsuwa/item15.html",
             isPopular: false
         },
         {
             id:16,
             name: "和柄の湯飲み",
             price:"¥2,100",
-            image:"../image/item16.jpg",
-            link:"../item16.html",
+            image:"js/image/item16.jpg",
+            link:"koharu-utsuwa/item16.html",
             isPopular: false
         },
     ]
