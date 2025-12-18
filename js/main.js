@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
             name: "益子焼オリジナルセット",
             price:"¥9,800",
             image:"js/image/item1.jpg",
-            link:"koharu-utsuwa/item1.html",
+            link:"item1.html",
             isPopular: true
         },
         {
@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
             name: "湯呑み茶碗",
             price:"¥4,400",
             image:"js/image/item2.jpg",
-            link:"koharu-utsuwa/item2.html",
+            link:"item2.html",
             isPopular: false
         },
         {
@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
             name: "抹茶茶碗",
             price:"¥3,200",
             image:"js/image/item3.jpg",
-            link:"koharu-utsuwa/item3.html",
+            link:"item3.html",
             isPopular: false
         },
         {
@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
             name: "レトロのボウル",
             price:"¥2,500",
             image:"js/image/item4.jpg",
-            link:"koharu-utsuwa/item4.html",
+            link:"item4.html",
             isPopular: false
         },
         {
@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
             name: "益子焼マグカップ",
             price:"¥3,500",
             image:"js/image/item5.jpg",
-            link:"koharu-utsuwa/item5.html",
+            link:"item5.html",
             isPopular: true
         },
         {
@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", function () {
             name: "オリジナルカップ",
             price:"¥5,200",
             image:"js/image/item6.jpg",
-            link:"koharu-utsuwa/item6.html",
+            link:"item6.html",
             isPopular: true
         },
         {
@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", function () {
             name: "ビンテージカップ",
             price:"¥3,500",
             image:"js/image/item7.jpg",
-            link:"koharu-utsuwa/item7.html",
+            link:"item7.html",
             isPopular: false
         },
         {
@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", function () {
             name: "小春ボウル",
             price:"¥4,800",
             image:"js/image/item8.jpg",
-            link:"koharu-utsuwa/item8.html",
+            link:"item8.html",
             isPopular: false
         },
         {
@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", function () {
             name: "白いボウル",
             price:"¥2,500",
             image:"js/image/item9.jpg",
-            link:"koharu-utsuwa/item9.html",
+            link:"item9.html",
             isPopular: false
         },
         {
@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", function () {
             name: "ストライプコップ",
             price:"¥3,000",
             image:"js/image/item10.jpg",
-            link:"koharu-utsuwa/item10.html",
+            link:"item10.html",
             isPopular: false
         },
         {
@@ -104,7 +104,7 @@ document.addEventListener("DOMContentLoaded", function () {
             name: "青色のマグカップ",
             price:"¥1,800",
             image:"js/image/item11.jpg",
-            link:"koharu-utsuwa/item11.html",
+            link:"item11.html",
             isPopular: false
         },
         {
@@ -112,7 +112,7 @@ document.addEventListener("DOMContentLoaded", function () {
             name: "ティーカップ",
             price:"¥2,200",
             image:"js/image/item12.jpg",
-            link:"koharu-utsuwa/item12.html",
+            link:"item12.html",
             isPopular: false
         },
         {
@@ -120,7 +120,7 @@ document.addEventListener("DOMContentLoaded", function () {
             name: "和食器",
             price:"¥3,500",
             image:"js/image/item13.jpg",
-            link:"koharu-utsuwa/item13.html",
+            link:"item13.html",
             isPopular: false
         },
         {
@@ -128,7 +128,7 @@ document.addEventListener("DOMContentLoaded", function () {
             name: "2個セット茶碗",
             price:"¥4,200",
             image:"js/image/item14.jpg",
-            link:"koharu-utsuwa/item14.html",
+            link:"item14.html",
             isPopular: false
         },
         {
@@ -136,7 +136,7 @@ document.addEventListener("DOMContentLoaded", function () {
             name: "うすみどりのボウル",
             price:"¥1,900",
             image:"js/image/item15.jpg",
-            link:"koharu-utsuwa/item15.html",
+            link:"item15.html",
             isPopular: false
         },
         {
@@ -144,7 +144,7 @@ document.addEventListener("DOMContentLoaded", function () {
             name: "和柄の湯飲み",
             price:"¥2,100",
             image:"js/image/item16.jpg",
-            link:"koharu-utsuwa/item16.html",
+            link:"item16.html",
             isPopular: false
         },
     ]
