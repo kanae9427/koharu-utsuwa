@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
             id:1,
             name: "益子焼オリジナルセット",
             price:"¥9,800",
-            image:"js/image/item1.jpg",
+            image:"image/item1.jpg",
             link:"item1.html",
             isPopular: true
         },
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
             id:2,
             name: "湯呑み茶碗",
             price:"¥4,400",
-            image:"js/image/item2.jpg",
+            image:"image/item2.jpg",
             link:"item2.html",
             isPopular: false
         },
@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
             id:3,
             name: "抹茶茶碗",
             price:"¥3,200",
-            image:"js/image/item3.jpg",
+            image:"image/item3.jpg",
             link:"item3.html",
             isPopular: false
         },
@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
             id:4,
             name: "レトロのボウル",
             price:"¥2,500",
-            image:"js/image/item4.jpg",
+            image:"image/item4.jpg",
             link:"item4.html",
             isPopular: false
         },
@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function () {
             id:5,
             name: "益子焼マグカップ",
             price:"¥3,500",
-            image:"js/image/item5.jpg",
+            image:"image/item5.jpg",
             link:"item5.html",
             isPopular: true
         },
@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function () {
             id:6,
             name: "オリジナルカップ",
             price:"¥5,200",
-            image:"js/image/item6.jpg",
+            image:"image/item6.jpg",
             link:"item6.html",
             isPopular: true
         },
@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", function () {
             id:7,
             name: "ビンテージカップ",
             price:"¥3,500",
-            image:"js/image/item7.jpg",
+            image:"image/item7.jpg",
             link:"item7.html",
             isPopular: false
         },
@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", function () {
             id:8,
             name: "小春ボウル",
             price:"¥4,800",
-            image:"js/image/item8.jpg",
+            image:"image/item8.jpg",
             link:"item8.html",
             isPopular: false
         },
@@ -87,7 +87,7 @@ document.addEventListener("DOMContentLoaded", function () {
             id:9,
             name: "白いボウル",
             price:"¥2,500",
-            image:"js/image/item9.jpg",
+            image:"image/item9.jpg",
             link:"item9.html",
             isPopular: false
         },
@@ -95,7 +95,7 @@ document.addEventListener("DOMContentLoaded", function () {
             id:10,
             name: "ストライプコップ",
             price:"¥3,000",
-            image:"js/image/item10.jpg",
+            image:"image/item10.jpg",
             link:"item10.html",
             isPopular: false
         },
@@ -103,7 +103,7 @@ document.addEventListener("DOMContentLoaded", function () {
             id:11,
             name: "青色のマグカップ",
             price:"¥1,800",
-            image:"js/image/item11.jpg",
+            image:"image/item11.jpg",
             link:"item11.html",
             isPopular: false
         },
@@ -111,7 +111,7 @@ document.addEventListener("DOMContentLoaded", function () {
             id:12,
             name: "ティーカップ",
             price:"¥2,200",
-            image:"js/image/item12.jpg",
+            image:"image/item12.jpg",
             link:"item12.html",
             isPopular: false
         },
@@ -119,7 +119,7 @@ document.addEventListener("DOMContentLoaded", function () {
             id:13,
             name: "和食器",
             price:"¥3,500",
-            image:"js/image/item13.jpg",
+            image:"image/item13.jpg",
             link:"item13.html",
             isPopular: false
         },
@@ -127,7 +127,7 @@ document.addEventListener("DOMContentLoaded", function () {
             id:14,
             name: "2個セット茶碗",
             price:"¥4,200",
-            image:"js/image/item14.jpg",
+            image:"image/item14.jpg",
             link:"item14.html",
             isPopular: false
         },
@@ -135,7 +135,7 @@ document.addEventListener("DOMContentLoaded", function () {
             id:15,
             name: "うすみどりのボウル",
             price:"¥1,900",
-            image:"js/image/item15.jpg",
+            image:"image/item15.jpg",
             link:"item15.html",
             isPopular: false
         },
@@ -143,7 +143,7 @@ document.addEventListener("DOMContentLoaded", function () {
             id:16,
             name: "和柄の湯飲み",
             price:"¥2,100",
-            image:"js/image/item16.jpg",
+            image:"image/item16.jpg",
             link:"item16.html",
             isPopular: false
         },
